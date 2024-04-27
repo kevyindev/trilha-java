@@ -4,8 +4,9 @@ public class TiposDados {
   public static void main(String[] args) {
 
     //Tipos de Strings para textos
-    String meuNome = "Kevyn Rodrigues";
-    System.out.println("Meu nome completo: " + meuNome);
+    String primeiroNome = "Kevyn Guilherme da ";
+    String sobrenome = "Silva Rodrigues";
+    System.out.println("Meu nome completo: " + primeiroNome + sobrenome);
 
     //Tipos de dados
     byte idade = 123;
