@@ -24,6 +24,10 @@ public class Usuario {
     smartTv.escolherCanal(55);
     System.out.println("Canal atual: " + smartTv.canal);
 
+    // Acessando Netflix
+    smartTv.acessarNetflix();
+    smartTv.sairNetflix();
+
     // Desligando Tv
     smartTv.desligarTv();
     System.out.println("Tv ligada? " + smartTv.ligada);

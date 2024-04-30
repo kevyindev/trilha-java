@@ -2,6 +2,7 @@ package educ.kevin.segundasemana;
 
 public class SmartTv {
   boolean ligada = false;
+  boolean netflix = false;
   int canal = 1;
   int volume = 25;
 
@@ -29,6 +30,15 @@ public class SmartTv {
   public void diminuirVolume(){
     volume--;
     System.out.println("Diminuindo o volume para: " + volume);
+  }
+
+  public void acessarNetflix(){
+    netflix = true;
+    System.out.println("Acessando NETFLIX..." + netflix);
+  }
+  public void sairNetflix(){
+    netflix = false;
+    System.out.println("Saindo NETFLIX... " + netflix);
   }
 
 }
