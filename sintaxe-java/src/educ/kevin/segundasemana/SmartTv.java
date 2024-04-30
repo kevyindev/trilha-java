@@ -32,6 +32,7 @@ public class SmartTv {
     System.out.println("Diminuindo o volume para: " + volume);
   }
 
+  // Acessar-Sair Netflix
   public void acessarNetflix(){
     netflix = true;
     System.out.println("Acessando NETFLIX..." + netflix);
